@@ -8,7 +8,6 @@
   background: #f7f7f7;
 }
 
-/* LEFT */
 .hero-left{
   max-width: 520px;
 }
@@ -35,7 +34,7 @@
   line-height: 1.6;
 }
 
-/* BUTTONS */
+
 .hero-actions{
   margin-top: 2rem;
   display: flex;
@@ -60,7 +59,7 @@
   font-weight: 500;
 }
 
-/* RIGHT IMAGE - UPDATED FOR LARGER SIZE */
+
 .hero-right{
   flex: 1;
   justify-content: flex-end; 
@@ -68,7 +67,6 @@
 }
 
 .image-wrapper{
-  /* Increased the size significantly to make it less 'straight' */
   width: 500px;
   height: 550px; 
   border-radius: 50%;
@@ -82,7 +80,6 @@
   object-fit: cover;
 }
 
-/* MOBILE - UPDATED */
 @media (max-width: 900px){
   .hero{
     flex-direction: column-reverse;
@@ -91,10 +88,10 @@
   }
 
   .image-wrapper{
-    /* Adjusted size for mobile screens */
+
     width: 280px;
     height: 280px; 
-    margin-left: 0; /* Reset margin on mobile */
+    margin-left: 0;
   }
 
   .hero-actions{

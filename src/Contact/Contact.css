@@ -55,13 +55,11 @@
   width: 22px;
 }
 
-/* Platform colors */
 .linkedin {
   background-color: #0077b5;
 }
 
 
-/* Mobile */
 @media (max-width: 600px) {
   .contact-container h2 {
     font-size: 26px;
