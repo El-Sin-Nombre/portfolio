@@ -1,0 +1,125 @@
+/* ===== Desktop styles ===== */
+
+.portfolio-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  align-items: center;
+
+  /* minimal separation */
+  box-shadow: 0 10px 8px -12px rgba(0, 0, 0, 0.35);
+  margin-bottom: 40px;
+}
+
+.project-info {
+  width: 40%;
+}
+
+.project-info h2 {
+  font-size: 28px;
+}
+
+.project-info p {
+  margin: 15px 0;
+  line-height: 1.6;
+}
+
+.slideshow {
+  width: 60%;
+}
+
+.slideshow img {
+  width: 100%;
+  border-radius: 10px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Buttons container */
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.github-icon {
+  width: 40px;
+  cursor: pointer;
+}
+
+.action-buttons button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* ===== Mobile (Android) ===== */
+.slideshow img {
+  width: 100%;
+  border-radius: 10px;
+  transition: opacity 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fade-out {
+  opacity: 0;
+  transform: scale(0.98);
+}
+.action-buttons button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background: gray;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.action-buttons button{
+  height: 35px;
+}
+.action-buttons button:hover {
+  background: #444;
+}
+
+@media (max-width: 768px) {
+  .portfolio-container {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .project-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .project-info h2 {
+    font-size: 24px;
+  }
+
+  .project-info p {
+    font-size: 15px;
+  }
+
+  .slideshow {
+    width: 100%;
+  }
+
+  /* FIXED ALIGNMENT */
+  .action-buttons {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .github-icon {
+    width: 36px;
+  }
+
+  .action-buttons button {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
