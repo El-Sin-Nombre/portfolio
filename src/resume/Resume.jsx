@@ -15,7 +15,6 @@ export function Resume() {
         <section className="resume-header">
           <div className="resume-intro">
             <h1>Shrijay More</h1>
-            <h2>Aspiring Software Developer</h2>
             <p>
               Aspiring Software Developer with a strong foundation in
               object-oriented programming, data structures, algorithms, and
