@@ -3,8 +3,8 @@ import Header from "../Header/Header";
 import "./Home.css";
 import profile from "../assets/shree.png";
 
-export function Home(){
-  return(
+export function Home() {
+  return (
     <>
       <Header />
       <section className="hero">
@@ -13,15 +13,19 @@ export function Home(){
             Hi <br />
             I’m <span>SHRIJAY MORE</span>
           </h1>
-          <h2>Web Developer</h2>
+          <h2>Aspiring Software Developer</h2>
           <p>
-            I design and build modern, scalable web applications with
-            a strong focus on clean and simple UI and user experience.
+            I design and build modern, scalable web applications with a strong
+            focus on clean and simple UI and user experience.
           </p>
 
           <div className="hero-actions">
-            <Link to="/contact" className="primary-btn">Contact Me</Link>
-            <Link to="/projects" className="secondary-btn">Projects</Link>
+            <Link to="/contact" className="primary-btn">
+              Contact Me
+            </Link>
+            <Link to="/projects" className="secondary-btn">
+              Projects
+            </Link>
           </div>
         </div>
 
