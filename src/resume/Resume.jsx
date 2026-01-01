@@ -34,7 +34,7 @@ export function Resume() {
             <div className="contact-item">
               <span>GitHub:</span>
               <a
-                href="https://github.com/El-Sin-Nombre"
+                href="https://github.com/shrijay-more"
                 target="_blank"
                 rel="noopener noreferrer"
               >
